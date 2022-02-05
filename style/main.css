@@ -32,17 +32,30 @@ header .logo{
 }
 
 .menu{
-    margin-right: 20px;
+    margin-right: 10px;
+    background-color: rgba(20, 20, 20, 0.5);
+    border: none;
+    color: rgb(185, 169, 169);
+
+    padding: 10px 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 2s ease all;
 }
 
 header nav a{
     text-decoration: none;
-    color: #AAA;
+    color: rgb(83, 77, 77);
     margin-right: 10px;
 }
 
 header nav a:hover{
-    color: #fff;
+    color: rgb(73, 63, 63);
+    background-color: white;
+    color: black;
 }
 
 /*filme-principal*/
@@ -113,4 +126,201 @@ header nav a:hover{
 
 .carousel-filmes{
     margin-top: 5px;
+}
+
+#popup {
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 50px 2px #000;
+    padding-bottom: 5px;
+  }
+  #close {
+    width: 100px;
+    background-color: #cc0033;
+    color: #ffffff;
+    border: none;
+    margin-left: 5px;
+  }
+
+  /*serie-principal*/
+
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/peaky-blinders.jpeg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.serie-principal .titulo{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.serie-principal .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: rgb(221, 213, 213);
+
+    padding: 15px 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+/*filme-pagina*/
+
+.filme-pagina{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/matrix.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-pagina .descricao{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.filme-pagina .titulo{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.filme-pagina .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: rgb(221, 213, 213);
+
+    padding: 15px 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-pagina .container{
+    width: 70%;
+}
+
+/*animacoes*/
+
+.animacoes{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/Os-Simpsons-Disney-Plus-1024x576.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.animacoes .descricao{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.animacoes .titulo{
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+.animacoes .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: rgb(221, 213, 213);
+
+    padding: 15px 40px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: 3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.animacoes .container{
+    width: 70%;
 }
